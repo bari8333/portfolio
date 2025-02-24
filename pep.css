@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 4rem;
+    color: rgb(13, 115, 124) !important;
+    z-index: 10;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(13, 115, 124) !important;
+    font-size: 1.5rem;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+.home-section {
+    background-image: url(4.png.jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(4, 45, 70);
+    justify-content: center;
+    align-items:center;
+    padding-top: 100px;
+    align-content: center;
+}
+
+.home-section h1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.home-section h2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.skill-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.skill-box img {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.skill-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.project-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
